@@ -133,7 +133,7 @@ lab05/
 
 Время ответа на запрос при отключённом размышлении: от 2.8 до 25.2 с (результаты в results/examples.md и results/results.json).
 
-![alt text](screenshots\image_2.png)
+![alt text](screenshots/image_2.png)
 
 **Задание 3. Работа через локальный API**
 
