@@ -14,6 +14,7 @@
 |[Лабораторная №2](./lab02/)|Влияние параметров генерации LLM (system prompt, temperature, max\_tokens) на качество и стабильность ответов|Выполнена|
 |[Лабораторная №3](./lab03/)|Проектирование промптов и системных инструкций<br />для больших языковых моделей|Выполнена|
 |[Лабораторная №4](./lab04/)|Оценка качества больших языковых моделей|Выполнена|
+|[Лабораторная №5](./lab05/)|Развертывание и исследование локальной большой языковой модели|Выполнена|
 
 ## Структура репозитория
 
@@ -53,6 +54,24 @@ AI_Labs/
 │   ├── README.md
 │   ├── main.py
 │   └── results.json
+│
+├── lab05/
+│   ├── .env.example
+│   ├── prompts.json
+│   ├── requirements.txt
+│   ├── README.md
+│   ├── src/
+│   │   ├── client.py
+│   │   └── analyze_log.py
+│   ├── data/
+│   │   └── sample_auth.log
+│   ├── results/
+│   │   ├── results.json
+│   │   ├── benchmark.csv
+│   │   ├── examples.md
+│   │   └── analysis.json
+│   └── screenshots/
+│ 
 └── .gitignore
 ```
 
