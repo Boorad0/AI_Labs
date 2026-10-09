@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10T02:04:09",
+  "temperature": 0.2,
+  "max_tokens": 4000,
+  "local_think": "true",
+  "local_model": "qwen",
+  "cloud_model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "price_in_usd_per_1m": 0.0,
+  "price_out_usd_per_1m": 0.0
+}

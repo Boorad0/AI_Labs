@@ -1,0 +1,3 @@
+﻿backend;model;tests;errors;requests_with_retries;mean_score;fully_correct_share;latency_mean_s;latency_median_s;ttft_mean_s;tokens_per_s_mean;input_tokens;output_tokens;cost_usd_total;cost_usd_per_1000;cost_usd_per_100000;cpu_percent_peak;ram_used_gb_peak;vram_mib_peak;gpu_percent_peak
+cloud;nvidia/nemotron-3-super-120b-a12b:free;20;0;0;2.0;1.0;2.2234965549985644;1.8186307500000112;0.7981429650011705;137.78880513457148;2521;2837;0.0;0.0;0.0;;;;
+local;qwen;20;0;0;1.75;0.85;34.636344620003364;28.079338849987835;2.4456957000045803;40.91228687457869;2397;26352;;;;42.6;17.87;7060.0;98.0
