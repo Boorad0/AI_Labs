@@ -84,7 +84,6 @@ RETRY_PAUSE_S=     # базовая пауза между попытками, с
 ```
 lab06/
 ├── .env.example
-├── .gitignore
 ├── requirements.txt
 ├── README.md
 ├── src/

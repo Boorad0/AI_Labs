@@ -1,0 +1,8 @@
+{
+  "model": "bge-m3",
+  "documents": 40,
+  "dimension": 1024,
+  "normalized": true,
+  "device": "GPU",
+  "build_time_s": 0.789
+}

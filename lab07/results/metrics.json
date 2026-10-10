@@ -1,0 +1,51 @@
+{
+  "model": "bge-m3",
+  "device": "GPU",
+  "top_k": 3,
+  "chunking": {
+    "A": {
+      "size": 400,
+      "overlap": 80,
+      "chunks": 25,
+      "build_time_s": 0.74,
+      "queries_without_relevant_chunk": []
+    },
+    "B": {
+      "size": 1000,
+      "overlap": 200,
+      "chunks": 12,
+      "build_time_s": 0.565,
+      "queries_without_relevant_chunk": []
+    }
+  },
+  "metrics": {
+    "длинные документы, схема A | семантический": {
+      "queries": 8,
+      "precision@3": 0.4167,
+      "recall@3": 1.0,
+      "mrr": 1.0,
+      "mean_time_ms": 23.4075
+    },
+    "длинные документы, схема B | семантический": {
+      "queries": 8,
+      "precision@3": 0.4167,
+      "recall@3": 1.0,
+      "mrr": 0.9375,
+      "mean_time_ms": 22.46
+    },
+    "короткие документы | ключевой (TF-IDF)": {
+      "queries": 14,
+      "precision@3": 0.1905,
+      "recall@3": 0.4643,
+      "mrr": 0.5112,
+      "mean_time_ms": 0.5143
+    },
+    "короткие документы | семантический": {
+      "queries": 14,
+      "precision@3": 0.4286,
+      "recall@3": 0.9286,
+      "mrr": 0.9524,
+      "mean_time_ms": 25.9821
+    }
+  }
+}
